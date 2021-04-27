@@ -1,0 +1,30 @@
+.image {
+  width: 2cm;
+  height: 2cm;
+}
+
+.earth1 {
+  width: 2cm;
+  height: 2cm;
+  padding: 0px;
+  margin: auto;
+  animation: spin 3.5s infinite linear;
+}
+
+.centre {
+  text-align: center;
+  margin: auto;
+}
+
+.rotate {
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
